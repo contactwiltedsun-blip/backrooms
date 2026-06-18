@@ -1,0 +1,38 @@
+# Godot 4+ specific ignores
+.godot/
+*.gdshader
+*.gdshaderc
+
+# Mono-specific ignores
+.mono/
+export/
+.vs/
+*.csproj
+*.sln
+*.vcxproj
+
+# Tools
+addons/
+plugins/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs
+user://
+gut_temp_directory/
+*.xml
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
